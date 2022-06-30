@@ -20,7 +20,7 @@ metode pembayaran yang akan di support antara lain :
 1. Jalankan postgresql di docker
 
 ```
-	docker run --rm \
+docker run --rm \
 	--name invoice-db \
 	-e POSTGRES_USER=invoice \
 	-e POSTGRES_PASSWORD=mhBMHAevM2YLcLDAHwpb \
