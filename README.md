@@ -15,6 +15,12 @@ metode pembayaran yang akan di support antara lain :
 * QR Payment
     * QRIS
 
+Tipe tagihan yang tersedia :
+
+* CLOSED : bayar sesuai nominal. Kalau tidak sesuai, ditolak
+* OPEN : pembayaran berapapun diterima
+* INSTALLMENT : pembayaran diterima selama total akumulasi lebih atau sama dengan nilai tagihan
+
 # Cara Setup Database #
 
 1. Jalankan postgresql di docker
