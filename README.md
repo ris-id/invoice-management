@@ -32,7 +32,7 @@ docker run --rm \
 	-e POSTGRES_PASSWORD=mhBMHAevM2YLcLDAHwpb \
 	-e POSTGRES_DB=invoicedb \
 	-e PGDATA=/var/lib/postgresql/data/pgdata \
-	-v "/d/data ali/development/ris.id/invoice-management/invoicedb-data/:/var/lib/postgresql/data" \
+	-v "$pwd/invoicedb-data/:/var/lib/postgresql/data" \
 	-p 5432:5432 \
 	postgres:13
 ```
